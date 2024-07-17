@@ -35,12 +35,12 @@ const Create = () => {
             <h2>Fill the product details</h2>
             {error && <p style={{ color: 'red' }}>{error}</p>}
             <form onSubmit={handleSubmit}>
-                <div>
-                    <label>Name</label>
+                <div className='name-field'>
+                    <label>Name </label>
                     <input type="text" required value={name} onChange={(e) => setName(e.target.value)} />
                 </div>
                 <div>
-                    <label>Type</label>
+                    <label>Type </label>
                     <select value={type} onChange={(e) => setType(e.target.value)}>
                         <option value="" disabled>Select a type</option>
                         {groceriesTypes.map((type) => (
@@ -51,13 +51,15 @@ const Create = () => {
                     </select>
                 </div>
                 <div>
-                    <label>Price</label>
+                    <label>Price </label>
                     <input type="number" required value={price} onChange={(e) => setPrice(e.target.value)} />
                 </div>
-                <button type="submit">Create Product</button>
-                <Link to={`/dashbord`}>
-                    <p>Back</p>
-                </Link>
+                <div className='btn-options'>
+                    <button className='create-btn' type="submit">Create Product</button>
+                    <Link to={`/dashbord`}>
+                        <p className='back-option'>Back</p>
+                    </Link>
+                </div>
             </form>
         </div>
     );

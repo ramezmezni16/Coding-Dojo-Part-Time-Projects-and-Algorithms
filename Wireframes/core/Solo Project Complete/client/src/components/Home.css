@@ -1,0 +1,24 @@
+body {
+    background-color:rgb(221, 221, 221);
+}
+
+
+
+.h1_1 {
+    font-size: 65px;
+    margin-top: 250px;
+}
+
+.p_1 {
+    margin-bottom: 100px;
+    font-size: 18px;
+    margin-top: -20px;
+}
+
+
+.btn_1 {
+    background-color: black;
+    color: white;
+    padding: 30px 60px;
+    font-size: 20px;
+}

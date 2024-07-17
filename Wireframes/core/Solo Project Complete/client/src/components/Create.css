@@ -7,24 +7,23 @@
     text-align: center;
 }
 
+.add-product {
+    border: 1px solid black;
+    margin: 100px 700px;
+    padding-bottom: 10px;
+}
+
 .sort-options {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-}
-
-.sort-options button {
-    padding: 10px 20px;
     font-size: 18px;
-    margin: 0 10px;
     cursor: pointer;
-    background-color: #4CAF50;
-    color: white;
+    color: black;
     border: none;
+    display: flex;
 }
 
-.sort-options button:hover {
-    background-color: #45a049;
+button:hover {
+    background-color: black;
+    color: white;
 }
 
 table {
@@ -41,12 +40,37 @@ th, td {
 button {
     padding: 5px 10px;
     font-size: 14px;
-    background-color: #f44336;
+    background-color: black;
     color: white;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #d32f2f;
+    background-color:dimgrey;
+}
+
+.back-option {
+    margin: 10px;
+}
+.create-btn {
+    display: inline-flex;
+    margin-top: 90px;
+    padding: 15px 90px;
+}
+.name-field {
+    padding: 10px;
+    margin-top: 60px;
+}
+
+input {
+    background-color: rgba(160, 153, 153, 0.438);
+    padding: 10px 50px;
+    margin: 10px;
+}
+
+select {
+    background-color: rgba(160, 153, 153, 0.438);
+    padding: 10px 75px;
+    margin: 10px;
 }
