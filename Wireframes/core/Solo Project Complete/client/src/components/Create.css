@@ -1,0 +1,52 @@
+.dashboard {
+    padding: 20px;
+}
+
+.dashboard h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.sort-options {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.sort-options button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+.sort-options button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d32f2f;
+}

@@ -18,9 +18,9 @@ module.exports = {
 
 
     updateGrocery: (req,res) => {
-        Grocery.findOneAndUp({_id: req.params.id})
-            .then(confirm=> res.json(confirm))
-            .catch(err=> res.status(400).json(err))
+        Grocery.findByIdAndUpdate({_id: req.params.id}, req.body, {new:true, runValidators:true})
+        .then(object=> res.json(object))
+        .catch(err=> res.status(400).json(err))
     },
 
 
