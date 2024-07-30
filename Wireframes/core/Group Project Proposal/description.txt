@@ -1,0 +1,55 @@
+                                                       Reservation System (MERN Stack)
+
+## Team Members:
+
+- **Backend**: Zied
+- **Frontend (Components)**: Ramez
+- **CSS, Navigation Bars, Footer**: Aziz
+
+
+
+
+
+
+
+## Wireframe Overview:
+The project is a reservation system with various features and user flows. 
+Below is a detailed description of each screen as depicted in the wireframe:
+
+
+
+1. **Home Page**:
+   - Contains a search bar with date pickers for check-in and check-out dates.
+   - Includes a video element.
+   - Navigation bar with options to login/register and view bookings.
+   - Footer with social media links and other relevant information.
+
+
+2. **Login Page**:
+   - Users can enter their email and password to log in.
+   - Includes buttons for logging in and an option to navigate to the registration page.
+
+
+3. **Register Page**:
+   - Form for users to register by entering their first name, last name, email, and contact number.
+   - Includes buttons to submit the registration form and navigate to the login page.
+
+
+4. **Profile Page**:
+   - Displays the user's profile information.
+   - Form to edit and update user details (first name, last name, email, contact).
+   - Save changes button.
+
+
+5. **Previous Bookings Page**:
+   - Lists the user's previous bookings.
+   - Each booking displays the hotel name, check-in and check-out dates, and other relevant details.
+
+
+6. **Booking Form Page**:
+   - Form to enter booking details including hotel name, check-in date, check-out date, and total amount.
+   - Button to complete the booking, which redirects to the success page upon submission.
+
+
+7. **Success Page**:
+   - Displays a message confirming the booking has been successful.

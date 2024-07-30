@@ -21,7 +21,7 @@ const Edit = () => {
 
     useEffect(() => {
         fetchProduct();
-    });
+    }, []);
 
     const fetchProduct = () => {
         axios.get(`http://localhost:8000/api/groceries/${id}`)
