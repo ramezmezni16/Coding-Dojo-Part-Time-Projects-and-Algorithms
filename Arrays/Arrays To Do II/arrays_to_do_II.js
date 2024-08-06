@@ -29,7 +29,7 @@ function rotateArr(arr, shiftBy) {
 function filter(arr, min, max) {
     let a = 0;
     for (let i = 0; i < arr.length; i++) {
-        if (arr[i] >= min && arr[i] <= max) {arr[a++] = arr[i];}
+        if (arr[i] >= min && arr[i] <= max) {arr[a++] = arr[i]}
     }
     arr.length = a;
 }
