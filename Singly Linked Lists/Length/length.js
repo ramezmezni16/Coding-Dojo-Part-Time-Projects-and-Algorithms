@@ -9,12 +9,12 @@ class SLL {
         this.head = null;
     }
     length() {
-        let Count = 0;
+        let count = 0;
         let cNode = this.head;
         while (cNode) {
-            Count++;
+            count++;
             cNode = cNode.next;
         }
-        return Count;
+        return count;
     }
 }
